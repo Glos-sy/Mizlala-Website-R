@@ -1,0 +1,159 @@
+/*
+    %- margin, width
+    rem- font-size, spacing
+    px- icons, border
+*/
+
+/* GENERAL STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eed3b8;
+    color: #39322c;
+    font-family: monospace;
+    letter-spacing: 0.15rem;
+}
+
+body a {
+    color: #39322c;
+}
+
+
+/* HEADER STYLING */
+header {
+    padding: 1.6rem 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 36%;
+}
+
+header nav {
+    display: inline-block;
+    width: 60%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 83%;
+}
+
+header nav ul li {
+    list-style-type: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+
+/* MAIN STYLING */
+/* SECTION ONE STYLING */
+#one {
+    background: url(./Media/Mizlala-main.jpg) no-repeat;
+    background-size: contain;
+    margin-bottom: 3%;
+}
+
+
+/* SECTION TWO STYLING */
+#two {
+    margin: 0 auto 16%;
+    text-align: center;
+    width: 100%;
+}
+
+#two h1 {
+    font-size: 4rem;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 1%;
+}
+
+#two p {
+    font-size: 1.4rem;
+    width: 54%;
+    margin: 0 auto 3.5%;
+    text-align: center;
+    line-height: 2.2rem;
+}
+
+#two h2 {
+    margin: 2.5% auto;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+#two input {
+    background-color: transparent;
+    border: 2px solid #39322c;
+    padding: 1.65rem 2.45rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #39322c;
+}
+
+#two input:hover, #three input:hover {
+    cursor: pointer;
+    background-color: #39322c;
+    color: #eed3b8;
+}
+
+#two .two-btn {
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* SECTION THREE STYLING */
+#three {
+    margin: 0 auto 10%;
+    text-align: center;
+}
+
+#three h1 {
+    font-size: 4rem;
+    margin: 2%;
+}
+
+#three p {
+    width: 55%;
+    margin: 0 auto 3%;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+#three input {
+    background-color: transparent;
+    border: 2px solid #39322c;
+    padding: 1.8rem 2.45rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #39322c;
+    letter-spacing: 0.1rem;
+}
+
+#three img {
+    width: 100%;
+    margin-top: 6%;
+    height: 50rem;
+}
+
+
+/* SECTION FOUR STYLING */
