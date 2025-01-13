@@ -105,7 +105,7 @@ header nav ul li a {
     color: #39322c;
 }
 
-#two input:hover, #three input:hover {
+#two input:hover, #three input:hover, #five input:hover {
     cursor: pointer;
     background-color: #39322c;
     color: #eed3b8;
@@ -157,3 +157,133 @@ header nav ul li a {
 
 
 /* SECTION FOUR STYLING */
+#four {
+    margin: 17% 0 15%;
+}
+
+#four h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#four .four-main-img {
+    width: 95%;
+    margin: 4% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#four .four-main-img img {
+    width: 96%;
+}
+
+#four .four-a {
+    display: flex;
+}
+
+#four .four-b {
+    display: flex;
+}
+
+#four .four-a div, #four .four-b div {
+    margin-bottom: 1%;
+}
+
+#four .four-a h3, #four .four-b h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0rem;
+    margin: 3.5% auto;
+}
+
+
+/* SECTION FIVE STYLING */
+#five {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 5rem;
+    letter-spacing: 0rem;
+}
+
+#five h1 {
+    font-size: 4rem;
+}
+
+#in {
+    margin-top: 15%;
+    font-size: 2srem;
+}
+
+#five input {
+    margin: 6% auto;
+    background-color: transparent;
+    border: 2px solid #39322c;
+    padding: 1.8rem 2.45rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #39322c;
+    letter-spacing: 0.1rem;
+}
+
+
+/* SECTION SIX STYLING */
+.img-slide {
+    display: none;
+}
+
+
+/* FOOTER STYLING */
+footer {
+    margin: 1% 0 0;
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#f-1 img {
+    width: 50%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin: 0 0 8% 0;
+}
+
+footer .deco {
+    background-color: #39322c;
+    height: 0.3rem;
+}
+
+footer .a {
+    width: 55%;
+    margin: -6% 0 13% 0;
+}
+
+footer .b {
+    width: 40%;
+    margin: -6% 0 12% 0;
+    height: 0.2rem;
+}
+
+footer .c {
+    width: 65%;
+    margin: -5% 0 12% 0;
+}
+
+footer p {
+    letter-spacing: 0.1rem;
+    font-size: 1.13rem;
+    margin-bottom: 8%;
+}
+
+#f-2, #f-3, #f-4 {
+    width: 37%;
+}
