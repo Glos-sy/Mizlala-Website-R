@@ -1,0 +1,62 @@
+/* GENERAL STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLING */
+header img {
+    width: 50%;
+    padding: 1.3rem 0;
+}
+
+header nav {
+    display: inline-block;
+    width: 150%;
+}
+
+header nav i {
+    visibility: hidden;
+}
+
+header nav ul {
+    width: 90%;
+}
+
+header nav ul li {
+    font-size: 1.6rem;
+}
+
+
+/* SECTION TWO STYLING */
+#two .two-btn {
+    width: 65%;
+}
+
+/* SECTION FOUR STYLING */
+#four .four-main-img {
+    width: 98%;
+}
+
+
+/* SECTION SIX STYLING */
+#six img {
+    height: 85%;
+    width: 100%;
+}
+
+
+/* FOOTER STYLING */
+footer {
+    margin-bottom: 3%;
+}
+
+#f-1 img {
+    width: 65%;
+}
+
+#f-2, #f-3, #f-4 {
+    width: 60%;
+    margin-right: 1.7%;
+}

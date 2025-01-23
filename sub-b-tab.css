@@ -1,0 +1,21 @@
+/* GENERAL STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLING */
+header img {
+    width: 60%;
+    padding: 1.3rem 0;
+}
+
+header nav {
+    display: inline-block;
+    width: 180%;
+}
+
+header nav ul {
+    width: 95%;
+}

@@ -1,0 +1,192 @@
+/* GENERAL STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLING */
+header nav {
+    display: none;
+}
+
+header nav i .fa-bars {
+    display: flex;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header img {
+    width: 38%;
+}
+
+
+/* SECTION ONE STYLING */
+#one img {
+    width: 100%;
+    height: 35rem;
+}
+
+
+/* SECTION TWO STYLING */
+#two h1 {
+    font-size: 3rem;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto 6%;
+}
+
+#two p {
+    font-size: 1.2rem;
+    width: 84%;
+    margin: 0 auto 13%;
+    text-align: center;
+    line-height: 1.9rem;
+}
+
+#two h2 {
+    margin: 2.5% auto 6%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 75%;
+    letter-spacing: 0.1rem;
+}
+
+#two .two-btn {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#two input {
+    margin-bottom: 18%;
+}
+
+
+/* SECTION THREE STYLING */
+#three {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#three img {
+    width: 100%;
+    margin-top: -3%;
+    height: 26rem;
+    margin-bottom: 5%;
+}
+
+#three h1 {
+    font-size: 2.9rem;
+}
+
+#three p {
+    width: 85%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0.1;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+#three input {
+    font-size: 1.15rem;
+}
+
+
+/* SECTION FOUR STYLING */
+#four h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 5%;
+}
+
+#four .four-main-img {
+    width: 95%;
+    margin: 4% auto;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#four .four-a {
+    display: flex;
+    flex-direction: column;
+}
+
+#four .four-b {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* SECTION FIVE STYLING */
+#five {
+    width: 90%;
+    line-height: 4.5rem;
+    letter-spacing: 0rem;
+}
+
+#five h1 {
+    font-size: 2.8rem;
+}
+
+#five input {
+    margin: 12% auto;
+}
+
+
+/* FOOTER STYLING */
+footer {
+    margin: 1% 0 0 6%;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#f-1 img {
+    width: 55%;
+    margin: 0 0 13% 10%;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin: 0 0 8% 0;
+}
+
+footer p {
+    letter-spacing: 0.05rem;
+    font-size: 1.13rem;
+    margin-bottom: 7%;
+}
+
+#f-2, #f-3, #f-4 {
+    width: 80%;
+    margin: 0 auto 7%;
+}
+
+footer .a {
+    width: 70%;
+    margin: -6% 0 13% 0;
+    height: 0.33rem;
+}
+
+footer .b {
+    width: 70%;
+    margin: -6% 0 12% 0;
+    height: 0.3rem;
+}
+
+footer .c {
+    width: 70%;
+    margin: -5% 0 12% 0;
+}

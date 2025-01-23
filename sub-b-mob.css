@@ -1,0 +1,59 @@
+/* GENERAL STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER STYLING */
+header img {
+    width: 50%;
+}
+
+
+
+/* SECTION ONE STYLING */
+#one img {
+    width: 100%;
+    height: 25rem;
+}
+
+
+/* SECTION TWO STYLING */
+#two h1 {
+    margin-top: 10%;
+    font-size: 2.3rem;
+}
+
+#two p {
+    font-size: 1.15rem;
+    letter-spacing: 0;
+}
+
+
+/* SECTION THREE STYLING */
+#three {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#three img {
+    height: 23rem;
+    margin-bottom: 10%;
+}
+
+#three h1 {
+    font-size: 2.6rem;
+}
+
+
+#three p {
+    font-size: 1.15rem;
+}
+
+
+/* SECTION FIVE STYLING */
+#five h1 {
+    font-size: 2.5rem;
+}

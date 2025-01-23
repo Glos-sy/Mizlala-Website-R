@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mizlala</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="sub-a-tab.css" media="(max-width: 1376px)" />
+    <link rel="stylesheet" href="sub-b-tab.css" media="(max-width: 1168px)" />
+    <link rel="stylesheet" href="tablet.css" media="(max-width: 1024px)" />
+    <link rel="stylesheet" href="sub-a-mob.css" media="(max-width: 860px)" />
+    <link rel="stylesheet" href="sub-b-mob.css" media="(max-width: 656px)" />
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 500px)" />
+    <!-- 656 -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward_ios"
@@ -12,6 +19,13 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back_ios"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
@@ -26,14 +40,16 @@
           <li><a href="https://mizlala.com/order">ORDER</a></li>
           <li><a href="https://mizlala.com/catering">CATERING</a></li>
         </ul>
-        <a href="https://www.instagram.com/mizlalarestaurant/?hl=en"></a>
-        <!-- icon -->
+        <a href="https://www.instagram.com/mizlalarestaurant/?hl=en"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <i class="fa-solid fa-bars"></i>
       </nav>
     </header>
 
     <main>
       <section id="one">
-        <!-- <img src="./Media/Mizlala-main.jpg" alt="" /> -->
+        <img src="./Media/Mizlala-main.jpg" alt="" />
       </section>
 
       <section id="two">
@@ -60,19 +76,23 @@
       </section>
 
       <section id="three">
-        <h1>WE CATER!</h1>
-        <p>
-          from office lunches, intimate gatherings, large dinner parties or
-          special events, we’ve got you covered with a variety of catering trays
-          customized to fit your needs
-        </p>
-        <a href="https://mizlala.com/catering"
-          ><input type="button" value="CATERING"
-        /></a>
-        <img
-          src="./Media/now-catering.jpeg"
-          alt="a table spread of various dishes"
-        />
+        <div class="three-txt">
+          <h1>WE CATER!</h1>
+          <p>
+            from office lunches, intimate gatherings, large dinner parties or
+            special events, we’ve got you covered with a variety of catering
+            trays customized to fit your needs
+          </p>
+          <a href="https://mizlala.com/catering"
+            ><input type="button" value="CATERING"
+          /></a>
+        </div>
+        <div class="three-img">
+          <img
+            src="./Media/now-catering.jpeg"
+            alt="a table spread of various dishes"
+          />
+        </div>
       </section>
 
       <section id="four">
@@ -180,11 +200,6 @@
           <img src="./Media/slide-9.jpg" alt="" />
         </div>
       </section>
-
-      <div class="arrow">
-        <span class="material-symbols-outlined"> arrow_back_ios </span>
-        <span class="material-symbols-outlined"> arrow_forward_ios </span>
-      </div>
     </main>
 
     <footer>
@@ -217,6 +232,11 @@
         <p>4515 Sepulveda Blvd Sherman Oaks, CA 91403</p>
         <p>818 783 6698</p>
       </div>
+
+      <a class="prev" onclick="nextSlide(-1)"></a>
+      <a class="next" onclick="nextSlide(1)"></a>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
